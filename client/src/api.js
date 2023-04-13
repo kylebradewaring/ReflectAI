@@ -38,4 +38,3 @@ export const fetchGptResponse = async (conversationHistory) => {
     return 'Error fetching response';
   }
 };
-
