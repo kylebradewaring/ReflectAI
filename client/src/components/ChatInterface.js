@@ -136,7 +136,6 @@ const ChatInterface = () => {
         {isTyping && renderTypingIndicator()}
         <div ref={chatLogRef}></div>
       </div>
-
         <form onSubmit={sendMessage} className="message-input">
           <input
             type="text"

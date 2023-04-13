@@ -26,7 +26,7 @@ const LandingPage = () => {
           classNames="fade"
           unmountOnExit
         >
-          <div>
+          <div className='welcome-div'>
             <h1 className="welcome-header">
               Welcome to ReflectAI, our Interactive Feedback Platform!
             </h1>
