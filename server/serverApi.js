@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require('openai');
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY, // Replace with your actual API key
+  apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
@@ -20,10 +20,10 @@ const fetchGptResponse = async (conversationHistory) => {
       const allMessages = conversationHistory.length === 0 ? primingMessages : primingMessages.concat(conversationHistory);
   
       const completion = await openai.createChatCompletion({
-        model: 'gpt-4', // Replace with the model you want to use
+        model: 'gpt-4',
         messages: allMessages,
-        max_tokens: 500, // Adjust the maximum response length as needed
-        temperature: 0.5, // Adjust the "creativity" of the response
+        max_tokens: 500,
+        temperature: 0.5,
       });
   
       if (completion.data.choices && completion.data.choices.length > 0) {
