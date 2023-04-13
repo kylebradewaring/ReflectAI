@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { fetchGptResponse } from '../api.js';
+import { fetchGptResponseFromServer } from '../api.js';
 import { CSSTransition } from 'react-transition-group';
 import './ChatInterface.css';
 import SendButtonArrow from '../assets/submit-arrow.png';
@@ -87,7 +87,7 @@ const ChatInterface = () => {
   
       setIsTyping(true);
   
-      const gptResponse = await fetchGptResponse(gptMessages.concat({ role: 'user', content: input }));
+      const gptResponse = await fetchGptResponseFromServer(gptMessages.concat({ role: 'user', content: input }));
       addGptResponse(gptResponse);
   
       setIsTyping(false);
