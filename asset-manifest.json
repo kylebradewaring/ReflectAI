@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd3e11e3.css",
+    "main.js": "/static/js/main.c8277886.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/form-image.png": "/static/media/form-image.0ac5330a14088e620d43.png",
+    "static/media/abs-leaves_small.png": "/static/media/abs-leaves_small.1f982d5086b4d235bcb1.png",
+    "static/media/reflectai-logo.png": "/static/media/reflectai-logo.0faadd1009876ae1a54b.png",
+    "index.html": "/index.html",
+    "main.cd3e11e3.css.map": "/static/css/main.cd3e11e3.css.map",
+    "main.c8277886.js.map": "/static/js/main.c8277886.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd3e11e3.css",
+    "static/js/main.c8277886.js"
+  ]
+}
