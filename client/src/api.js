@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from 'openai';
 
 const configuration = new Configuration({
-  apiKey: 'SECRET-KEY', // Replace with your actual API key
+  apiKey: process.env.REACT_APP_OPENAI_API_KEY, // Replace with your actual API key
 });
 const openai = new OpenAIApi(configuration);
 
@@ -38,4 +38,3 @@ export const fetchGptResponse = async (conversationHistory) => {
     return 'Error fetching response';
   }
 };
-
