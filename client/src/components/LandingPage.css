@@ -9,6 +9,10 @@
     color: 1c1c1c;
 }
 
+.welcome-div {
+    margin-bottom: 10rem;
+}
+
 .welcome-header {
     font-size: 2rem;
     margin: 0rem 2rem 2rem 2rem;
@@ -20,7 +24,7 @@
     max-width: 45rem;
     font-size: 1.2rem;
     line-height: 1.5em;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
   
 .get-started-btn {
